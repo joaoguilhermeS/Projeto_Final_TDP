@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JPCovid</class>
+ <widget class="QDialog" name="JPCovid">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>648</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>341</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Unidade: UPA Bancários&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Endereço: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt; R. Empresário João Rodrigues Alves - Bancários, João Pessoa - PB, 58033-455&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3255-5111&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#ffaa00;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: UPA Cruz das Armas&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: Av. Cruz das Armas, 1280 - Cruz das Armas, João Pessoa - PB, 58085-000&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3214-3773&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: UPA Oceania&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: Av. Gov. Flávio Ribeiro Coutinho, 70 - Aeroclube, João Pessoa - PB, 58036-800&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3214-9287&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: UPA Valentina&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço:  R. Estêvão Lopes Galvão, sn - Valentina, João Pessoa - PB, 58064-090&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3237-7068&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: USF São Rafael&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. das Casas Novas, 530 - Castelo Branco, João Pessoa - PB, 58050-701&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3218-9715&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: USF Água Fria&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: Rua Administrador Idevaldo Veras Barreto, 41 - Jardim Sao Paulo, João Pessoa - PB, 58053-122&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3218-9717&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: USF Bancarios e Aldeia SOS&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. Esmeraldo Gomes Vieira, sn - Bancários, João Pessoa - PB, 58051-650&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone:(83) 3214-5709&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:rgba(0,0,0,0.866667);&quot;&gt;USF Bessa&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222; background-color:#ffffff;&quot;&gt;Endereço: R. Napoleão Gomes Varela, 385 - Bessa, João Pessoa - PB, 58035-080&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222; background-color:#ffffff;&quot;&gt;Telefone:(83) 3218-8002&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF Eucaliptos&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. Euclides Rodrigues Oliveira, sn - Jardim Cidade Universitaria, João Pessoa - PB, 58052-146&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone:(83) 3214-5726&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF - Colibris I&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. José Cândido da Silva, 48 - Cidade dos Colibris, João Pessoa - PB, 58073-324&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone:(83) 3218-9174&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF - Vila Saúde&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. Euclides Rodrigues Oliveira, sn - Jardim Cidade Universitaria, João Pessoa - PB, 58052-146&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone:(83) 3218-9297&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF - Torre I&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço:R. José Severino Massa Spinelli, 835 - Torre, João Pessoa - PB, 58040-500&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone:(83) 3211-6776&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF - Integrada José Américo&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. Oselmar de Castro Barreto, sn - José Américo de Almeida, João Pessoa - PB, 58073-455&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone:(83) 3218-9078&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF - Santa Clara&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. Maria Linhares Pordeus - Conj. Pres. Castelo Branco II, João Pessoa - PB, 58050-680&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3211-6757&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Unidade: &lt;/span&gt;&lt;span style=&quot; font-family:'arial','sans-serif-light','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;USF - Santa Clara&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Endereço: R. Vicente Jardim, 160 - Tambiá, João Pessoa - PB, 58020-770&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:12pt; font-weight:600; color:#000000; background-color:#ffffff;&quot;&gt;Telefone: (83) 3218-9874&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>20</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Alguns Locais de atendimento à covid-19</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>em João Pessoa/Cabedelo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Apoio.qrc">:/Imagens/E:/Felipe/Tec-Pro/Projeto/ProjetoTec/Brasão_de_João_Pessoa.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>110</y>
+     <width>271</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Apoio.qrc">:/Imagens/E:/Felipe/Tec-Pro/Projeto/ProjetoTec/CoronaAten.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>310</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>10</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Apoio.qrc">:/Imagens/Downloads/Brasao_Cabedelo_PB-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Apoio.qrc"/>
+ </resources>
+ <connections/>
+</ui>

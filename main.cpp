@@ -1,9 +1,11 @@
-#include<iostream>
+#include "mainwindow.h"
 
-using namespace std;
+#include <QApplication>
 
-//Aqui ficara a main dos projetos
-
-int main(){
-  cout<<"Hello world"<<endl;
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+    return a.exec();
 }
